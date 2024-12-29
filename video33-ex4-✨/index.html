@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav-Bar</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: var(--color);
+            height: 80px;
+            width: 1155px;
+            margin: auto;
+            margin-top: 30px;
+            border-radius: 10px;
+        }
+        nav div{
+            padding: 20px;
+        }
+        nav div span{
+            margin-left: 20px;
+        }
+        .brand{
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        .nav-links{
+            font-weight: bold;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        button{
+            padding: 6px;
+            font-weight: bold;
+            border-radius: 15px;
+            margin-top: 5px;
+            margin-left: 15px;
+            background-color: var(--hello);
+        }
+    </style>
+</head>
+<body>
+    <!-- Create a multicolor website which can change color using CSS Variables -->
+     <nav>
+        <div class="brand">Brand.</div>
+        <div class="nav-links">
+            <span>Home</span><span>About</span><span>Services</span><span>Products</span><span>Contact</span>
+        </div>
+        <div class="ctc-buttons">
+            <button>Sign Up</button><button>Login</button><button>Get Started</button>
+        </div>
+     </nav>
+</body>
+</html>

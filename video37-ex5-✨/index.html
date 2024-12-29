@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 2px solid black;
+        }
+
+        header {
+            background-color: pink;
+            height: 100px;
+            position: sticky;
+            top: 0px;
+        }
+
+        .content {
+            background-color: green;
+            height: 500px;
+            margin: 1px 20px;
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+
+
+        }
+
+        footer {
+            background-color: rgb(155, 136, 136);
+            height: 100px;
+
+        }
+
+        .content :first-child {
+            background-color: peru;
+        }
+
+        .content :nth-child(2) {
+            background-color: rgb(76, 76, 188);
+        }
+
+        .content section {
+            height: 250px;
+            width: 300px;
+            /* below code if don't want to use then EASY is display: flex; */
+            display: inline-block;
+            margin: 30px;
+            position: relative;
+            left: 250px;
+            top: 90px;
+
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 50px;
+            color: whitesmoke;
+            background-color: black;
+            border: 3px solid white;
+            border-radius: 25px;
+        }
+
+        body :nth-child(3) {
+            border-radius: 25px;
+            border: 5px solid black;
+        }
+        .logo{
+            width: 80px;
+            background-color: orange;
+            border-radius: 25px;
+            position: fixed;
+            bottom: 60px; 
+            right: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+    </header>
+    <div class="content">
+        <section>
+        </section>
+        <section>
+        </section>
+    </div>
+    <div>
+        <h2>Welcome to this Sigma Web Development Express</h2>
+    </div>
+    <footer>
+    </footer>
+    <img class="logo" src="https://cdn2.hubspot.net/hubfs/53/image8-2.jpg" alt="Google">
+
+
+</body>
+
+</html>
